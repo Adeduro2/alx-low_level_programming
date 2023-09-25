@@ -15,10 +15,6 @@ struct dog
 	float age;
 	char *owner;
 };
-
-/**
- * dog_t - typedef for struct dog
- */
 char *_strcpy(char *dest, char *src);
 int _strlen(char *s);
 typedef struct dog dog_t;
